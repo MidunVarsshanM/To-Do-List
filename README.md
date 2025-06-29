@@ -47,8 +47,8 @@ DOM updates via JavaScript
 
 ## 📱 Screenshots
 
-| Login Page | Homepage | Task Form |  Nav Bar | Filter Dropdown |
-|------------|----------|-----------|----------|-----------------|
+| Login Page | Homepage | Task Form |
+|------------|----------|-----------|
 | ![Login](lib/assets/login_page.jpg) | ![Home](lib/assets/homepage.jpg) | ![Form](lib/assets/task_form.jpg) | ![Nav](lib/assets/nav_bar.jpg) | ![Filter](lib/assets/filter_button.jpg) |
 
 ---
