@@ -1,4 +1,4 @@
-# 📝 To-Do List Web App
+[](url)# 📝 To-Do List Web App
 
 A clean and responsive To-Do List web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase Authentication**. Users can securely log in with their Google account, add tasks with due dates, mark them as complete, and delete them. The app sorts tasks by due date and places completed tasks at the bottom.
 
@@ -51,6 +51,7 @@ DOM updates via JavaScript
 
 | Login Page | Homepage | Task Form |
 |------------|----------|-----------|
-| ![Login](Todo List/Screenshots/Login Page.png) | ![Home](Todo List/Screenshots/Home Page.png) | ![Form](Todo List/Screenshots/Tasks.png) | 
+| ![Login](Todo List/Screenshots/LoginPage.png) | ![Home](Todo List/Screenshots/HomePage.png) | ![Form](Todo List/Screenshots/Tasks.png) |
+
 ---
 
