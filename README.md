@@ -29,22 +29,6 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 
 ## 🏗️ Architecture Diagram
 
-```plaintext
-User Browser
-     │
-     ▼
-Login via Google
-     │
-     ▼
-Firebase Authentication (Client SDK)
-     │
-     ▼
-index.html (HomePage)
-     │
-     ├── Add / Delete / Mark Complete
-     └── Stored in localStorage
-     ▼
-DOM updates via JavaScript
 
 ---
 
