@@ -25,20 +25,6 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 - **Completed tasks move to the bottom** of the list automatically.
 
   ---
-  
-
-## 🏗️ Architecture Diagram
-
-graph TD
-    A[User Browser] --> B[Login via Google]
-    B --> C[Firebase Authentication (Client SDK)]
-    C --> D[index.html (HomePage)]
-    D --> E[Add / Delete / Mark Complete]
-    E --> F[Stored in localStorage]
-    D --> G[DOM updates via JavaScript]
-
-
----
 
 
 ## 📱 Screenshots
