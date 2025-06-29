@@ -24,6 +24,28 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 - Tasks are **sorted by due date** to prioritize upcoming tasks.
 - **Completed tasks move to the bottom** of the list automatically.
 
+  ---
+  
+
+## 🏗️ Architecture Diagram
+
+```plaintext
+User Browser
+     │
+     ▼
+Login via Google
+     │
+     ▼
+Firebase Authentication (Client SDK)
+     │
+     ▼
+index.html (HomePage)
+     │
+     ├── Add / Delete / Mark Complete
+     └── Stored in localStorage
+     ▼
+DOM updates via JavaScript
+
 ---
 
 
