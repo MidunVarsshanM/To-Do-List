@@ -52,9 +52,11 @@ DOM updates via JavaScript
 | ![Login](lib/assets/login_page.jpg) | ![Home](lib/assets/homepage.jpg) | ![Form](lib/assets/task_form.jpg) | ![Nav](lib/assets/nav_bar.jpg) | ![Filter](lib/assets/filter_button.jpg) |
 
 ---
+## 📱 Screenshots
 
-🎥 [Watch Demo Video](https://drive.google.com/file/d/1WBx8D_JDeybCx9xI2OjJ1qo22Ih3Z7E0/view?usp=drivesdk)
+| Login Page | Homepage | Task Form |  Nav Bar | Filter Dropdown |
+|------------|----------|-----------|----------|-----------------|
+| ![Login](lib/assets/login_page.jpg) | ![Home](lib/assets/homepage.jpg) | ![Form](lib/assets/task_form.jpg) | ![Nav](lib/assets/nav_bar.jpg) | ![Filter](lib/assets/filter_button.jpg) |
 
-This project is a part of a hackathon run by https://www.katomaran.com
-
+---
 
