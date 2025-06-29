@@ -45,6 +45,8 @@ index.html (HomePage)
      ▼
 DOM updates via JavaScript
 
+---
+
 ## 📱 Screenshots
 
 | Login Page | Homepage | Task Form |
