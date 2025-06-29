@@ -31,7 +31,7 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 
 | Login Page | Homepage | Task Form |
 |------------|----------|-----------|
-| ![Login](Todo List/Screenshots/LoginPage.png) | ![Home](Todo List/Screenshots/HomePage.png) | ![Form](Todo List/Screenshots/Tasks.png) |
+| ![Login](TodoList/Screenshots/LoginPage.png) | ![Home](TodoList/Screenshots/HomePage.png) | ![Form](TodoList/Screenshots/Tasks.png) |
 
 ---
 
