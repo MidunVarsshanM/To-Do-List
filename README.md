@@ -29,6 +29,7 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 
 ## 🏗️ Architecture Diagram
 
+```mermaid
 graph TD
     A[User Browser] --> B[Login via Google]
     B --> C[Firebase Authentication (Client SDK)]
