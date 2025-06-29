@@ -49,7 +49,6 @@ DOM updates via JavaScript
 
 | Login Page | Homepage | Task Form |
 |------------|----------|-----------|
-| ![Login](lib/assets/login_page.jpg) | ![Home](lib/assets/homepage.jpg) | ![Form](lib/assets/task_form.jpg) | ![Nav](lib/assets/nav_bar.jpg) | ![Filter](lib/assets/filter_button.jpg) |
-
+| ![Login](Todo List/Screenshots/Login Page.png) | ![Home](Todo List/Screenshots/Home Page.png) | ![Form](Todo List/Screenshots/Tasks.png) | 
 ---
 
