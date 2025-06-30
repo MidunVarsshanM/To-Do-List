@@ -1,6 +1,6 @@
 # 📝 Todo Task Manager (Web)
 
-A responsive and user-friendly task management web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase**. This project focuses on simplicity, accessibility, and clean UI/UX. It enables users to securely sign in with Google, manage tasks with due dates, collaborate across devices in real time, and work even in offline mode.
+A responsive and user-friendly task management web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase**. This project focuses on simplicity, accessibility. It enables users to securely sign in with Google, manage tasks with due dates.
 
 ---
 
