@@ -1,8 +1,11 @@
-# 📝 Collaborative Todo Task Manager (Web)
+# 📝 Todo Task Manager (Web)
 
-A responsive and user-friendly task management web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase**. Users can securely sign in using Google, create and manage tasks with due dates, and view real-time updates—all from a clean, intuitive UI.
+A responsive and user-friendly task management web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase**. This project focuses on simplicity, accessibility, and clean UI/UX. It enables users to securely sign in with Google, manage tasks with due dates, collaborate across devices in real time, and work even in offline mode.
 
-🔗 **Live Demo**: [https://todo-49.netlify.app/](https://todo-49.netlify.app/)
+---
+
+🔗 **Live Demo**  
+👉 [https://todo-49.netlify.app/](https://todo-49.netlify.app/)
 
 ---
 
@@ -47,34 +50,7 @@ A responsive and user-friendly task management web application built using **HTM
 
 ## 🗂 Architecture Diagram
 
-```plantuml
-@startuml
-title Architecture Diagram - Collaborative Todo Task Manager
-
-actor User
-
-User --> Browser : Access App via Netlify
-
-rectangle "Frontend (Netlify)" {
-  component "HTML" 
-  component "CSS"
-  component "JavaScript"
-  component "Firebase SDKs"
-}
-
-rectangle "Firebase (Backend)" {
-  component "Authentication"
-  component "Firestore"
-}
-
-User --> Authentication : Sign in with Google
-Authentication --> User : Auth Token (JWT)
-
-Browser --> Firestore : Read/Write Tasks
-Firestore --> Browser : Real-Time Task Updates
-
-@enduml
-```
+![Architecture](TodoList/Photos/Architecture.png)
 
 ---
 
