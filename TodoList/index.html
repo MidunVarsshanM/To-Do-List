@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="IMG/Login Icon.png" type="image/x-icon" />
+  <title>Login | To-Do List</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="lp.css" />
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <h1>📝 To-Do List</h1>
+    </div>
+    <div class="login-form">
+      <h2>Welcome to your To-Do List</h2>
+      <p class="welcome-text">Organize your tasks efficiently</p>
+      <button class="google-btn" id="googleSignInBtn">
+        <span class="google-icon">
+          <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo" />
+        </span>
+        Sign in with Google
+      </button>
+      <div class="footer-note">
+        By continuing, you agree to our <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAmUGgH1G2W2gh1wLAh9VpAxHyjzMCaJHg",
+      authDomain: "todo-list-3b851.firebaseapp.com",
+      projectId: "todo-list-3b851",
+      storageBucket: "todo-list-3b851.firebasestorage.app",
+      messagingSenderId: "959736358268",
+      appId: "1:959736358268:web:de7740a4a6465d32c2b0f9"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const provider = new GoogleAuthProvider();
+
+    document.getElementById('googleSignInBtn').addEventListener('click', () => {
+      signInWithPopup(auth, provider)
+        .then((result) => {
+          console.log("Signed in:", result.user.displayName);
+          window.location.href = "hp.html";
+        })
+        .catch((error) => {
+          console.error("Sign-in error:", error);
+          alert("Login failed: " + error.message);
+        });
+    });
+  </script>
+</body>
+</html>
